@@ -32,7 +32,7 @@ echo("
 ?>
 ```
 
-Subsequently, in the file that captures the form information (in the previous example it is validar.php), validate that the fields $captcha_random and $captcha_digitado are equal.
+Subsequently, in the file that captures the form information (in the previous example it is validar.php), validate that the fields **$captcha_random** and **$captcha_digitado** are equal.
 
 Example:
 
