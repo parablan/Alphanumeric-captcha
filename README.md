@@ -1,11 +1,11 @@
 # Captcha
-Script en PHP que genera un captcha alfanumérico.
+PHP script that generates an alphanumeric captcha.
 
-# Modo de uso
-Importe el script [captcha.php](https://github.com/alecosa/captcha/blob/main/captcha.php) en el formulario que desea insertar el captcha.
+# How to use
+Import the script [captcha.php](https://github.com/alecosa/captcha/blob/main/captcha.php) in the form where you want to insert the captcha.
 
 
-Ejemplo:
+Example:
 
 ```php
 <?PHP
@@ -32,9 +32,9 @@ echo("
 ?>
 ```
 
-Posteriormente en el archivo que captura la información del formulario (en el ejemplo anterior es validar.php), valide que los campos $captcha_random y $captcha_digitado sean iguales.
+Subsequently, in the file that captures the form information (in the previous example it is validar.php), validate that the fields $captcha_random and $captcha_digitado are equal.
 
-Ejemplo:
+Example:
 
 ```php
 <?PHP
