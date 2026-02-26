@@ -20,7 +20,7 @@ echo("
         <table border=0 width='100%'>
         <tr>
 ");
-include('captcha.php');
+require_once 'captcha.php';
 echo("
         <tr>
         <td><button>Validar</button>
